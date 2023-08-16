@@ -1,0 +1,18 @@
+.Appointment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 1280px) {
+    .Appointment {
+        justify-content: flex-start;
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Appointment {
+        align-items: center;
+    }
+}

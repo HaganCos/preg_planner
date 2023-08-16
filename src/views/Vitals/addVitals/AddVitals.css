@@ -1,0 +1,18 @@
+.Container {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient( 106.37deg, #c4dae9 29.63%, #ffcfd1 51.55%, #e7d2e67e 90.58%);
+    padding: 0.5rem;
+    padding-left: 1rem;
+    border-radius: 2rem;
+    box-shadow: 2px 1px 2px 3px #c5a5ca;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .Container {
+        font-size: 0.8rem;
+        gap: 1rem;
+    }
+}

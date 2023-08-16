@@ -1,0 +1,24 @@
+.Cards {
+    display: flex;
+    gap: 15px;
+}
+
+.mainContainer {
+    width: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+    .Cards {
+        flex-direction: column;
+    }
+    .mainContainer {
+        height: 11rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Cards {
+        width: 90%;
+        gap: 0.01rem;
+    }
+}

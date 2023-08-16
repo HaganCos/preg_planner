@@ -1,0 +1,22 @@
+.vTable {
+    margin-bottom: 2.2rem;
+}
+
+@media screen and (max-width: 1280px) {
+    .vTable {
+        width: 160%;
+        margin-top: 5.5rem;
+        margin-bottom: 8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .vTable {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 18rem;
+        margin-top: 3rem;
+    }
+}

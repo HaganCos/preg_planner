@@ -1,0 +1,44 @@
+.Table {
+    margin-bottom: 2rem;
+}
+
+.MuiDataGrid-root>* {
+    padding: 20px;
+}
+
+.MuiDataGrid-root.MuiDataGrid-columnHeaders>* {
+    font-weight: bold !important;
+}
+
+.MuiIconButton-root:focus {
+    outline: none !important;
+}
+
+.Tooltip {
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width: 1280px) {
+    .mbTable {
+        width: 160%;
+        margin-top: 22rem;
+        margin-bottom: 4rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Table {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 18rem;
+        margin-top: 3rem;
+    }
+}
+
+
+/* .MuiDataGrid-withBorderColor {
+    border: none !important;
+} */

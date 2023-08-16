@@ -1,0 +1,45 @@
+.MuiTableRow-head>*,
+.MuiTableRow-root>* {
+    padding-left: 2rem !important;
+}
+
+.MuiTableRow-root>* {
+    padding: 15px;
+}
+
+.MuiTableRow-root.MuiTableRow-head>* {
+    font-weight: bold !important;
+}
+
+.Table td,
+th {
+    border: none !important;
+}
+
+.Table:first-child {
+    border-radius: 1rem !important;
+}
+
+.status {
+    padding: 8px;
+    border-radius: 9px;
+}
+
+@media screen and (max-width: 1280px) {
+    .Table {
+        width: 160%;
+        margin-top: 9.5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Table {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 18rem;
+        margin-top: 2rem;
+    }
+}
