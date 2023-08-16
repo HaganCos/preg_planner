@@ -13,11 +13,11 @@ import Journal from "./views/Journal"
 
 const router = createBrowserRouter([
   {
-    path: '/preg_planner',
+    path: '/',
     element: <DefaultLayout />,
     children: [
       {
-        path: '/preg_planner',
+        path: '/',
         element: <Navigate to="/dashboard" />
       },
       {
