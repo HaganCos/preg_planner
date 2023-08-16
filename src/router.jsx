@@ -13,7 +13,7 @@ import Journal from "./views/Journal"
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/preg_planner/',
     element: <DefaultLayout />,
     children: [
       {
@@ -45,7 +45,7 @@ const router = createBrowserRouter([
   },
 
   {
-    path: '/',
+    path: '/preg_planner/',
     element: <GuestLayout />,
     children: [
       {
